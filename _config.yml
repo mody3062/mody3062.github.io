@@ -1,0 +1,49 @@
+---
+gems:
+- jekyll-archives
+- jekyll-sitemap
+- jekyll-paginate
+exclude:
+- "/vendor/"
+title: OPT LAB.
+subtitle: HUFS Industrial Management Engineering
+email: optlab@hufs.ac.kr
+name: optlab
+description: 
+baseurl: ''
+url: ''
+cover: "/assets/header_image.jpg"
+logo: "/assets/logo.png"
+markdown: kramdown
+paginate: 5
+paginate_path: "/page:num/"
+inter_post_navigation: false
+highlightjs_theme: monokai-sublime
+jekyll-archives:
+  enabled:
+  - categories
+  - tags
+  layout: archive
+  permalinks:
+    category: "/category/:name/"
+    tag: "/tag/:name/"
+social:
+- name: HUFS IME
+  username: HUFS IME
+  url: http://ime.hufs.ac.kr
+  desc: HUFS IME main homepage
+  share: true
+- name: HUFS
+  username: HUFS
+  url: http://hufs.ac.kr
+  desc: HUFS main homepage
+  share: true
+protocols:
+  fb_image: "/assets/logo.png"
+  fb_image_width: 652
+  fb_image_height: 655
+  fb_image_type: image/png
+  twitter_image: "/assets/logo.png"
+  os_repo: https://github.com/bencentra/centrarium.com
+  os_rcs_type: git
+  os_src: git@github.com:bencentra/centrarium.com.git

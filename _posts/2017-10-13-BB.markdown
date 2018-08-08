@@ -1,0 +1,15 @@
+---
+title: "[BB] Deep Learning Based Link Prediction "
+layout: post
+date: '2017-10-13 04:00:00'
+author: 장동호
+categories: Seminar
+---
+
+* **Topic** : Deep Learning Based Link Prediction with Social Pattern and External AttributeKnowledge in Bibliographic Networks
+*  **Date**: 2017.10.13  16:00pm 
+ 538호, Seminar Room 4
+*   **Abstract**
+> The problem of predicting links for informationentities is an important task in network analysis. In this regard,link prediction between authors in bibliographic networkshas attracted much attention. However, most of these worksonly center around exploiting network topology features todo prediction, and other factors affecting link formation arerarely considered. In this paper, we introduce two kinds ofnovel features based on social pattern and external attributeknowledge (SPEAK), then integrate the SPEAK features andtopological features into a deep learning framework usingdeep neural networks (DNNs). We present the performancebased on a real world academic social network from AMiner.Experimental results demonstrate that the SPEAK features cansignificantly boost the link prediction performance especiallywhen potential links span large geodesic distance. In addition,these features are helpful in understanding the mechanismsbehind the link formation.
+
+*
